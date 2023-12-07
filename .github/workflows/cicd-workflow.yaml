@@ -57,5 +57,5 @@ jobs:
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
           service: spen-service
-          cluster: spen
+          cluster: spen-cluster
           wait-for-service-stability: true    
