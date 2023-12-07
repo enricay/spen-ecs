@@ -56,6 +56,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v1
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: spen-service
+          service: spensvc
           cluster: spen-cluster
           wait-for-service-stability: true    
