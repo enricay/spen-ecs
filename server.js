@@ -72,6 +72,9 @@ app.use("/graphql", graphqlHTTP({
 app.get("/rest/getAllUsers", (req, res) => {
     res.send(userData)
    });
+app.get("/", (res, req)=>{
+    res.send("THIS IS MY SPEN DEMO APP")
+});
 
 app.listen(PORT, () => {
   console.log("Server running");
