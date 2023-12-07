@@ -93,7 +93,7 @@
 //   }
 
 {
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:178933473620:task-definition/spen-task-definition:5",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:178933473620:task-definition/spen-task-definition",
   "containerDefinitions": [
       {
           "name": "spen",
